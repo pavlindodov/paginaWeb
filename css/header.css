@@ -1,0 +1,21 @@
+header{
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(to top, #3e5f8a, #5783bc);
+}
+header div{
+    display: flex;
+    width: 25%;
+    margin: auto;
+}
+header div img{
+    width: 22%;
+    height: 18%;
+    padding-top: 2vh;
+}
+header div h2{
+    color: beige;
+    font-family: Monotype Corsiva;
+    font-size: 4vh;
+    text-shadow: 5px 5px 5px lightblue;
+}
