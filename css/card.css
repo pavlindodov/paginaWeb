@@ -1,0 +1,21 @@
+div.flexProductos{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+div.flexProductos div.pro{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	border: 5px solid #3e5f8a;
+	padding:50px;
+}
+
+img{
+	width:15%;
+	border: 1px solid #3e5f8a;
+}
+
+
+
