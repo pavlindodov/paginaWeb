@@ -1,0 +1,23 @@
+body {
+
+}
+
+div#centro {
+    width: 60%;
+    margin: 0px auto;
+    background-color: blue;
+}
+
+div#botones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+div#botones button {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+

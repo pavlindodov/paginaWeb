@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+		<link rel="shortcut icon" href="../img/logoPagina.png">
+
+        <link rel="stylesheet" href="estilos.css"/>
+        <link rel="stylesheet" href="contacto.css">
+		<link rel="stylesheet" href="media/contacto/media.css" media="screen"/>
+
+
+		<link rel="stylesheet" href="media/comun/mediaComun.css" media="screen">
+	</head>
+	<body>		
+		<section>
+			<div id="encuesta">
+				<div>
+					<h1>Llámanos al teléfono 912 760 000 en caso de necesitar ayuda.</h1>
+					<img src="linea.png" alt="">
+				</div>
+				<form action="../index.html" method="post">
+					<label for="name">Nombre de usuario:</label>
+						<input type="text" id="name" placeholder="Usuario*" required="required">
+					<label for="email">Introduzca su email:</label>
+						<input type="email" id="email" placeholder="Email*" required="required">
+					<label for="password">Introduzca contraseña:</label>
+						<input type="password" placeholder="Contraseña*" id="password" required="required">
+					<label for="password2">Confirmar contraseña:</label>
+						<input type="password2" placeholder="Confirmar contraseña*" id="password" required="required">
+					<label for="fecha">Fecha de nacimiento:</label>
+					<input type="date" placeholder="Fecha nacimiento">
+					<div><p>*He leido y acepto los terminos y condiciones</p><input type="checkbox" id="terminos" required="required"></div>
+					<input type="submit" name="enviar" id="requisitos" value="Sign up">
+				</form>
+				
+				
+			</div>
+			<div id="botones">
+				<div><a href="login.html">Login</a></div>
+				<div><a href="signUp.html">Sign up</a></div>
+			</div>
+		</section>
+    </body>
+</html>

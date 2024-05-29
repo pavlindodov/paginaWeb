@@ -1,0 +1,142 @@
+/*  Cabecera especial para esta pagina*/
+
+
+/* ************************* */
+/*      Formulario           */
+/* ************************* */
+
+
+/* Parte informativa del formulario */
+
+section div#encuesta div {
+    width: 80%;
+    margin-left: 11%;
+    color: white;
+    padding-top: 2%;
+}
+
+section div#encuesta div h1 {
+    margin-top: 10%;
+}
+
+section div#encuesta div img{
+    width: 20%;
+    margin: 20px 0px;
+}
+
+section div#encuesta div p{
+    margin: 20px 0px;
+}
+
+
+
+/* Formulario */
+
+section div#encuesta {
+    width: 50%;
+    background-image: url(formularioBack2.png);
+    
+    background-size: cover;
+    height: 800px;
+    margin: 0px auto;
+}
+
+section div#encuesta form{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section div#encuesta form input{
+    flex-basis: 100%;
+    margin: 10px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.600);
+    border: gray 1px solid;
+    color: white;
+    font-weight: bold;
+}
+
+section div#encuesta form label {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+section div#encuesta form input:first-child, section div#encuesta form input:nth-child(4), section div#encuesta form input:nth-child(5){
+    flex-basis: 100%;
+}
+
+section div#encuesta form input:nth-child(5) {
+    height: 100px;
+}
+
+section div#encuesta form textarea {
+    flex-basis: 97%;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.600);
+    border: gray 1px solid;
+    margin-left: 10px;
+    font-size: 14px;
+    resize: none;
+}
+
+section div#encuesta form input:focus {
+    border: rgb(151, 149, 149) 2px solid;
+}
+
+section div#encuesta form div {
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+section div#encuesta form div p {
+    float: left;
+    color: white;
+    text-shadow: -2px -2px 10px black;
+
+}
+
+section div#encuesta form input#requisitos {
+    margin: 2.6% 42%;
+    width: 10%;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+section div#encuesta form input#requisitos:hover {
+    background-color: #75cdd6;
+    border: 2px solid #75cdd6;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* BOTONES CAMBIAR PAGINAS */
+
+section div#botones {
+    width: 49.7%;
+    margin: 0px auto;
+}
+
+section div#botones div {
+    background-color: gray;
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+}
+
+section div#botones div a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+section div#botones div a:hover {
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+    
+}
