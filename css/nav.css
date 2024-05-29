@@ -1,0 +1,32 @@
+nav{
+            height: 50px;
+            background-color: #3e5f89;
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+        }
+        div.navegar{
+            padding: 15px;
+            color: white;
+            font-size: 120%;
+            text-shadow: 0 0 4px white;
+        }
+        div.titulo{
+            position: absolute;
+            top:0;
+            left:-2000px;
+            width: 50%;
+            height: 100%;
+            font-size: 200%;
+            padding-left: 20px;
+            padding-top: 10px;
+            box-sizing: border-box;
+            color: white;
+        }
+        div.navegar:hover{
+            text-shadow: 0 0 10px white;
+        }
+        nav:hover div.titulo{
+            left:0;
+            transition: 1s;
+        }
